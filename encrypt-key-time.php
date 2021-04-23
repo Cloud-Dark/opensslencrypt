@@ -5,7 +5,7 @@
 aku pengen kamu, iya kamuuuuuuu
   ';
   $date = new DateTime();
-  $result = $date->format('ymdhis');
+  $result = $date->format('ymdhi'); //kunci berdasarkan waktu, sehingga setiap menit key nya akan berubah
 	$key = md5($result);
   echo "key: $key";
 	?>
