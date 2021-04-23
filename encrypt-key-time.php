@@ -28,6 +28,7 @@ aku pengen kamu, iya kamuuuuuuu
 <br>
 
 <?php
+//aktifkan jika data yang dikelola berupa json
 // $json = $dataDecrypt;
 //
 // $obj = json_decode($json);
